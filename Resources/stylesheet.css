@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+* {
+    margin: 0;
+    background-color: cornsilk;
+}
+
+
+.intro {
+    height: 40vh;
+    font-family: 'Bakbak One';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 17vw;
+    background-image: url(/Resources/Secrets-Image-1lr-crop-b&w.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2:hover {
+   
+    background-image: url(/Resources/Secrets-Image-1lr-crop.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+
+
+
+.cow-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+
+}
+
+.cow-container img {
+    width: 80%;
+}
+
+.color-cow {
+    position: absolute;
+    width: 80%;
+    background-image: url(/Resources/IMAG2137-edited-b&w.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    inset: 0;
+    margin: auto;
+}
+
+.color-cow:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.boardwalk {
+    
+    position: relative;
+    height: 80vh;
+}
+
+.masking-container {
+    
+}
+
+.masking-container h3 {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    font-size: 15vw;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    color: orangered;
+    text-align: center;
+    opacity: .75;
+}
+
+.masking-container img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    width: 90%;
+    margin: auto;
+    object-fit: cover;
+
+    -webkit-mask-image: linear-gradient(black, transparent);
+}
