@@ -8,7 +8,7 @@
 
 
 .intro {
-    height: 40vh;
+    height: 30vh;
     font-family: 'Bakbak One';
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ h2:hover {
 }
 
 .photo {
-    width: 90%;
+    width: 80%;
     margin: auto;
     position: relative;
 }
@@ -48,17 +48,21 @@ h2:hover {
 .color-cow {
     position: absolute;
     inset: 0;
-    background-image: url(/Resources/IMAG2137-edited.jpg);
+    background-image: url(../Resources/IMAG2137-edited.jpg);
     background-size: cover;
 
-    -webkit-mask-image: url(/Resources/image-mask.png);
+    -webkit-mask-image: url(../Resources/image-mask.png);
+    mask-image: url(../Resources/image-mask.png);
     -webkit-mask-size: cover;
+    mask-size: cover;
     -webkit-mask-position: 0% 0%;
+    mask-position: 0% 0%;
 
     transition: 
-        -webkit-mask-position 500ms steps(24);
+        -webkit-mask-position 1100ms steps(24);
 }
 
 .color-cow:hover {
     -webkit-mask-position: 100% 0%;
+    mask-position: 100% 0%;
 }
