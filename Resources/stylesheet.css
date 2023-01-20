@@ -17,7 +17,7 @@
 
 h2 {
     font-size: 17vw;
-    background-image: url(/Resources/Secrets-Image-1lr-crop-b&w.jpg);
+    background-image: url(../Resources/Secrets-Image-1lr-crop-b&w.jpg);
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
@@ -26,9 +26,10 @@ h2 {
 
 h2:hover {
    
-    background-image: url(/Resources/Secrets-Image-1lr-crop.jpg);
+    background-image: url(../Resources/Secrets-Image-1lr-crop.jpg);
     background-size: cover;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     cursor: pointer;
 }
