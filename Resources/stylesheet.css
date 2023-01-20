@@ -20,6 +20,7 @@ h2 {
     background-image: url(/Resources/Secrets-Image-1lr-crop-b&w.jpg);
     background-size: cover;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
